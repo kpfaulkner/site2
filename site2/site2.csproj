@@ -14,6 +14,7 @@
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>site2_StoreKey.pfx</PackageCertificateKeyFile>
     <PackageCertificateThumbprint>7167E0989240BF7AD160F8E770AE1D2888EB9750</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -107,6 +108,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DataManager.cs" />
     <Compile Include="DisplayWord.xaml.cs">
       <DependentUpon>DisplayWord.xaml</DependentUpon>
     </Compile>
